@@ -8,14 +8,17 @@ This repository contains a very simple PHP file demonstrating how to use Heroku 
 - [Deploying to Heroku](#deploying-to-heroku)
 - [Demo Video](#demo-video)
 
+<a name="introduction"></a>
 ## Introduction
 Heroku is a cloud platform as a service (PaaS) that allows you to deploy, manage, and scale applications. This repository contains a minimal PHP file to guide you through the process of deploying a PHP application on Heroku.
 
+<a name="prerequisites"></a>
 ## Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - [Git](https://git-scm.com/)
 
+<a name="getting-started"></a>
 ## Getting Started
 1. Clone this repository to your local machine:
    ```bash
@@ -29,6 +32,7 @@ Before you begin, ensure you have the following installed on your local machine:
    
 3. Open index.php file and modify it according to your requirements.
 
+<a name="deploying-to-heroku"></a>
 ## Deploying to Heroku
 Follow these steps to deploy the PHP file to Heroku:
 
@@ -59,5 +63,6 @@ Once the deployment is successful, you can open your app in the browser:
 heroku open
 ```
 
+<a name="demo-video"></a>
 ## Demo Video
 For a detailed demonstration of how to deploy a PHP file on Heroku, check out our demo video in Persian language: [Heroku Demo (بتول ذیاب - منیر خسروی)](https://www.youtube.com/watch?v=FltkQDNx5g8&t=1432s).
