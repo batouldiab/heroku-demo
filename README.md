@@ -4,21 +4,60 @@ This repository contains a very simple PHP file demonstrating how to use Heroku 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- Getting Started
-- Deploying to Heroku
-- Demo Video
-- Contributing
-- License
+- [Getting Started](#getting-started)
+- [Deploying to Heroku](#deploying-to-heroku)
+- [Demo Video](#demo-video)
 
-<a name="introduction"></a>
 ## Introduction
 Heroku is a cloud platform as a service (PaaS) that allows you to deploy, manage, and scale applications. This repository contains a minimal PHP file to guide you through the process of deploying a PHP application on Heroku.
 
-<a name="prerequisites"></a>
 ## Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - [Git](https://git-scm.com/)
 
-demo (persian language) can be found in this link: https://www.aparat.com/v/g6L9z/Heroku_PaaS_-_%28%D8%A8%D8%AA%D9%88%D9%84_%D8%B0%D9%8A%D8%A7%D8%A8_-_%D9%85%D9%86%D9%8A%D8%B1_%D8%AE%D8%B3%D8%B1%D9%88%D9%89%29
+## Getting Started
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/batouldiab/heroku-demo.git
+   ```
 
+2. Navigate to the project directory:
+   ```bash
+   cd heroku-demo
+   ```
+   
+3. Open index.php file and modify it according to your requirements.
+
+## Deploying to Heroku
+Follow these steps to deploy the PHP file to Heroku:
+
+- Create a Heroku Account:
+If you haven't already, sign up for a free account on [Heroku](https://www.heroku.com/).
+
+- Login to Heroku:
+Open your terminal and login to your Heroku account using the following command:
+```bash
+heroku login
+```
+
+- Create a Heroku App:
+Create a new Heroku app using the Heroku CLI:
+```bash
+heroku create
+```
+
+- Deploy Your App:
+Deploy your PHP file to Heroku:
+```bash
+git push heroku master
+```
+
+- Open Your App:
+Once the deployment is successful, you can open your app in the browser:
+```bash
+heroku open
+```
+
+## Demo Video
+For a detailed demonstration of how to deploy a PHP file on Heroku, check out our demo video in Persian language: [Heroku Demo (بتول ذیاب - منیر خسروی)](https://www.youtube.com/watch?v=FltkQDNx5g8&t=1432s).
